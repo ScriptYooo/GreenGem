@@ -136,7 +136,8 @@ loadstring(game:HttpGet("https://getnative.cc/script/loader"))()
 end)
 
 button5.MouseButton1Click:Connect(function()
-    print("Button 5 clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ringtaa/tptotesla.github.io/refs/heads/main/Tptotesla.lua'))()
+			
 end)
 
 button6.MouseButton1Click:Connect(function()
