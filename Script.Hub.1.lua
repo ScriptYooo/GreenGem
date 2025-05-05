@@ -51,7 +51,7 @@ local button1 = createButton("Fly", UDim2.new(0.5, -100, 0, 70))
 local button2 = createButton("Meteor", UDim2.new(0.5, -100, 0, 130))
 local button3 = createButton("INFyield", UDim2.new(0.5, -100, 0, 190))
 local button4 = createButton("Fast Bonds", UDim2.new(0.5, -100, 0, 250))
-local button5 = createButton("Button 5", UDim2.new(0.5, -100, 0, 310))
+local button5 = createButton("Goto Places", UDim2.new(0.5, -100, 0, 310))
 local button6 = createButton("Button 6", UDim2.new(0.5, -100, 0, 370))
 local button7 = createButton("Button 7", UDim2.new(0.5, -100, 0, 430))
 local button8 = createButton("Button 8", UDim2.new(0.5, -100, 0, 490))
@@ -141,7 +141,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/ringtaa/tptotesla.git
 end)
 
 button6.MouseButton1Click:Connect(function()
-    print("Button 6 clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRails"))() 
 end)
 
 button7.MouseButton1Click:Connect(function()
