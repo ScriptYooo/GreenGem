@@ -50,7 +50,7 @@ local bondButton = createButton("By BlackGem", UDim2.new(0.5, -100, 0, 10))
 local button1 = createButton("Fly", UDim2.new(0.5, -100, 0, 70))
 local button2 = createButton("Meteor", UDim2.new(0.5, -100, 0, 130))
 local button3 = createButton("INFyield", UDim2.new(0.5, -100, 0, 190))
-local button4 = createButton("Button 4", UDim2.new(0.5, -100, 0, 250))
+local button4 = createButton("Fast Bonds", UDim2.new(0.5, -100, 0, 250))
 local button5 = createButton("Button 5", UDim2.new(0.5, -100, 0, 310))
 local button6 = createButton("Button 6", UDim2.new(0.5, -100, 0, 370))
 local button7 = createButton("Button 7", UDim2.new(0.5, -100, 0, 430))
@@ -132,7 +132,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/
 end)
 
 button4.MouseButton1Click:Connect(function()
-
+loadstring(game:HttpGet("https://getnative.cc/script/loader"))()
 end)
 
 button5.MouseButton1Click:Connect(function()
