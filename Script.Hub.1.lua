@@ -55,7 +55,7 @@ local button5 = createButton("Tp to tesla", UDim2.new(0.5, -100, 0, 310))
 local button6 = createButton("Auto Kill", UDim2.new(0.5, -100, 0, 370))
 local button7 = createButton("Tp to Fram Working", UDim2.new(0.5, -100, 0, 430))
 local button8 = createButton("FullBright", UDim2.new(0.5, -100, 0, 490))
-local button9 = createButton("Button 9", UDim2.new(0.5, -100, 0, 550))
+local button9 = createButton("NoClip", UDim2.new(0.5, -100, 0, 550))
 local button10 = createButton("More", UDim2.new(0.5, -100, 0, 610))
 
 -- Adjust Frame Height Based on Buttons
@@ -152,7 +152,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptYooo/GreenGem/r
 end)
 
 button9.MouseButton1Click:Connect(function()
-    print("Button 9 clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptYooo/GreenGem/refs/heads/main/Noclip"))()
 end)
 
 button10.MouseButton1Click:Connect(function()
