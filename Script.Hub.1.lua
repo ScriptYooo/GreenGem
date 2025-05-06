@@ -44,7 +44,7 @@ local function createButton(text, position)
 end
 
 -- Create Bond Button (Position at the top)
-local bondButton = createButton("By GG_LeafX Dead Rail", UDim2.new(0.5, -100, 0, 10))
+local bondButton = createButton("By GlitchZone Cheats For Dead Rail", UDim2.new(0.5, -100, 0, 10))
 
 -- Create additional buttons (1 to 10)
 local button1 = createButton("Fly", UDim2.new(0.5, -100, 0, 70))
