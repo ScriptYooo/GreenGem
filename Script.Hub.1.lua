@@ -44,15 +44,15 @@ local function createButton(text, position)
 end
 
 -- Create Bond Button (Position at the top)
-local bondButton = createButton("By GG_LeafX", UDim2.new(0.5, -100, 0, 10))
+local bondButton = createButton("By GG_LeafX Dead Rail", UDim2.new(0.5, -100, 0, 10))
 
 -- Create additional buttons (1 to 10)
 local button1 = createButton("Fly", UDim2.new(0.5, -100, 0, 70))
 local button2 = createButton("Meteor", UDim2.new(0.5, -100, 0, 130))
 local button3 = createButton("INFyield", UDim2.new(0.5, -100, 0, 190))
 local button4 = createButton("Fast Bonds", UDim2.new(0.5, -100, 0, 250))
-local button5 = createButton("Goto Lab", UDim2.new(0.5, -100, 0, 310))
-local button6 = createButton("Places", UDim2.new(0.5, -100, 0, 370))
+local button5 = createButton("Tp to tesla", UDim2.new(0.5, -100, 0, 310))
+local button6 = createButton("Auto Kill", UDim2.new(0.5, -100, 0, 370))
 local button7 = createButton("Button 7", UDim2.new(0.5, -100, 0, 430))
 local button8 = createButton("Button 8", UDim2.new(0.5, -100, 0, 490))
 local button9 = createButton("Button 9", UDim2.new(0.5, -100, 0, 550))
@@ -137,15 +137,14 @@ end)
 
 button5.MouseButton1Click:Connect(function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ringtaa/tptotesla.github.io/refs/heads/main/Tptotesla.lua'))()
-			
 end)
 
 button6.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRails"))() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRails"))()
 end)
 
 button7.MouseButton1Click:Connect(function()
-https://raw.githubusercontent.com/ringtaa/tptotesla.github.io/refs/heads/main/Tptotesla.lua
+    print("Button 7 clicked")
 end)
 
 button8.MouseButton1Click:Connect(function()
@@ -157,5 +156,5 @@ button9.MouseButton1Click:Connect(function()
 end)
 
 button10.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptYooo/GreenGem/refs/heads/main/Script.Hub.2.lua"))()
+    print("Button 10 clicked")
 end)
