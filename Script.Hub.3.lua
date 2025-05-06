@@ -44,7 +44,7 @@ local function createButton(text, position)
 end
 
 -- Create Bond Button (Position at the top)
-local bondButton = createButton("Page 2", UDim2.new(0.5, -100, 0, 10))
+local bondButton = createButton("Page 3", UDim2.new(0.5, -100, 0, 10))
 
 -- Create additional buttons (1 to 10)
 local button1 = createButton("Comming Soon", UDim2.new(0.5, -100, 0, 70))
