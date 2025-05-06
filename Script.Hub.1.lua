@@ -54,7 +54,7 @@ local button4 = createButton("Fast Bonds", UDim2.new(0.5, -100, 0, 250))
 local button5 = createButton("Tp to tesla", UDim2.new(0.5, -100, 0, 310))
 local button6 = createButton("Auto Kill", UDim2.new(0.5, -100, 0, 370))
 local button7 = createButton("Tp to Fram Working", UDim2.new(0.5, -100, 0, 430))
-local button8 = createButton("Button 8", UDim2.new(0.5, -100, 0, 490))
+local button8 = createButton("FullBright", UDim2.new(0.5, -100, 0, 490))
 local button9 = createButton("Button 9", UDim2.new(0.5, -100, 0, 550))
 local button10 = createButton("More", UDim2.new(0.5, -100, 0, 610))
 
@@ -148,7 +148,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/tpfarm.github
 end)
 
 button8.MouseButton1Click:Connect(function()
-    print("Button 8 clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptYooo/GreenGem/refs/heads/main/FullBright"))()
 end)
 
 button9.MouseButton1Click:Connect(function()
