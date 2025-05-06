@@ -156,5 +156,5 @@ button9.MouseButton1Click:Connect(function()
 end)
 
 button10.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptYooo/GreenGem/refs/heads/main/Script.Hub.1.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptYooo/GreenGem/refs/heads/main/Script.Hub.2.lua"))()
 end)
