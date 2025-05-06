@@ -154,5 +154,5 @@ button9.MouseButton1Click:Connect(function()
 end)
 
 button10.MouseButton1Click:Connect(function()
-    print("Button 10 clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptYooo/GreenGem/refs/heads/main/Script.Hub.3.lua"))()
 end)
